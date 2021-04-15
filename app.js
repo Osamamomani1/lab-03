@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /*var userName = prompt ('your name please');
+=======
+var userName = prompt ('your name please');
+>>>>>>> a1c9bd23374a6bdae3595ffc684c847de65fe881
 document.write
 alert('Hello dear thank you for visit our site');
 
@@ -13,6 +17,7 @@ if(timeNow >= 18){
 }else if (timeNow >= 0){
   document.write('Good Morning');
   document.write('<img src="https://img.huffingtonpost.com/asset/5e0f68ec2500003b1998fb2e.jpeg?cache=YqiWjN9UVt&ops=crop_34_446_5966_3406%2Cscalefit_720_noupscale">')
+<<<<<<< HEAD
 }
 */
 
@@ -37,3 +42,6 @@ var imagesNumber= prompt('How many image do you want?');
 for(var i=0 ; i < imagesNumber; i++){
   document.write(userChoose);
 }
+=======
+}
+>>>>>>> a1c9bd23374a6bdae3595ffc684c847de65fe881
