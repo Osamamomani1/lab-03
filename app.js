@@ -21,15 +21,25 @@ if(timeNow >= 18){
 ______________________________---________________
 */
 
+
+
 var carType = prompt('Hello, please enter your fav car motor type!');
+
+var cAr = function () {
+
+
 
 
 while(carType !== 'engine'&& carType !== 'electric'){
   carType = prompt('Please enter the name engine or electric ');
 }
+}
 
+cAr();
 
 var userChoose;
+
+function showImages () {
 
 if(carType === 'engine'){
 userChoose='<img src="https://www.carscoops.com/wp-content/uploads/2018/12/5862586a-ferrari-enzo-00.jpg">';
@@ -44,4 +54,6 @@ var imagesNumber= prompt('How many image do you want???');
 for(var i=0 ; i < imagesNumber; i++){
   document.write (userChoose);
 }
+}
 
+showImages() ;
