@@ -1,0 +1,31 @@
+header{
+   background-color: #eeebdd;
+ }
+
+ h1{
+   color: #1b1717;
+   text-align:center;
+ }
+
+ nav ul li {
+   display: inline;
+   margin: 30px;
+ }
+
+ main article img{
+   width:100%;
+   opacity: 0.9;
+ }
+
+body {
+  background-color: #2b4f60;
+}
+
+p {
+  color: #eeebdd;
+  font-size: 20px;
+}
+
+footer{
+  text-align: center;
+}
